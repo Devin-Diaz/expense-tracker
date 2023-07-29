@@ -1,0 +1,89 @@
+body{
+    background-color: lightblue;
+    margin: 0 0 0 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    color: lightpink;
+}
+.title{
+    margin-top: -10px;
+    font-size: 50px;
+    font-family: "Courier New";
+    color: black;
+    font-weight: bold;
+}
+.add-button{
+    margin-top: -15px;
+    border: none;
+    background-color: darkgreen;
+    color: whitesmoke;
+    padding: 12px 25px 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.edit-button{
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+    padding: 12px 12px 12px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-container{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.expense-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 853px;
+    height:180px;
+    align-items: center;
+}
+.table-container{
+    background: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    width: 832px;
+    align-items: center;
+    border-bottom-color: black;
+    border: solid;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.img-details1{
+    position: relative;
+    width: 55px;
+    left: 1215px;
+    bottom: 77px;
+    border-radius: 50px;
+}
+.img-details2{
+    position: relative;
+    width: 55px;
+    bottom: 77px;
+    left: 592px;
+    border-radius: 50px;
+}
+.object-expense-container{
+    margin-top: 5px;
+    margin-right: 100px;
+    border: black;
+    align-items: center;
+}
